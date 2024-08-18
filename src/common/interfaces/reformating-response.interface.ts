@@ -13,6 +13,7 @@ export interface DefaultResponseInterface<T = any> {
   statusCode?: HttpStatus;
   timestamp?: string;
   message?: string;
+  validationData?: any;
   data?: T;
   paginate?: DefaultResponsePaginateInterface;
 }
