@@ -1,5 +1,5 @@
 import { Expose, Type } from 'class-transformer';
-import { IsString, ValidateNested } from 'class-validator';
+import { IsArray, IsString, ValidateNested } from 'class-validator';
 import { NoSpecialChar } from 'src/common/validations/no-special-char.validator';
 import { WhatsappId } from 'src/common/validations/whatsapp-id.validator';
 
@@ -25,7 +25,8 @@ export class SendContactsDTO {
   @WhatsappId()
   to: string;
 
+  @IsArray()
   @ValidateNested({ each: true })
-  @Type(() => Array<ContactTemplate>)
+  @Type(() => ContactTemplate)
   contacts: ContactTemplate[];
 }

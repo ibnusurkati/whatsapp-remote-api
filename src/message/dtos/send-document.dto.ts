@@ -1,5 +1,5 @@
 import { Expose } from 'class-transformer';
-import { IsString, MaxLength } from 'class-validator';
+import { IsOptional, IsString, MaxLength } from 'class-validator';
 import { MessageFile } from 'src/common/validations/message-file.validator';
 import { NoSpecialChar } from 'src/common/validations/no-special-char.validator';
 import { WhatsappId } from 'src/common/validations/whatsapp-id.validator';
@@ -17,6 +17,7 @@ export class SendDocumentDTO {
   @MessageFile()
   file: string;
 
+  @IsOptional()
   @IsString()
   @MaxLength(2000)
   caption: string;
