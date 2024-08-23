@@ -4,10 +4,10 @@
 
 <p align="center">WhatsApp Remote is a Chrome extension for controlling WhatsApp message delivery with an API</p>
 <p align="center">
-<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote-api" alt="Release" style="height: 60px !important;width: 217px !important;" ></a>
-<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/license/ibnusurkati/whatsapp-remote-api" alt="License" style="height: 60px !important;width: 217px !important;" ></a>
-<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote-api/total" alt="Downloads" style="height: 60px !important;width: 217px !important;" ></a>
-<a href="https://paypal.me/ibnusurkati" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote-api" alt="Release"></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/license/ibnusurkati/whatsapp-remote-api" alt="License"></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote-api/total" alt="Downloads"></a>
+<a href="https://paypal.me/ibnusurkati" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate"></a>
 </p>
 
 ## Description
