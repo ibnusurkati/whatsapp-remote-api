@@ -4,17 +4,17 @@
 
 <p align="center">WhatsApp Remote is a Chrome extension for controlling WhatsApp message delivery with an API</p>
 <p align="center">
-    [![Release](https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote-api)](https://github.com/ibnusurkati/whatsapp-remote-api)
-    [![License](https://img.shields.io/github/license/ibnusurkati/whatsapp-remote-api)](https://github.com/ibnusurkati/whatsapp-remote-api)
-    [![Downloads](https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote-api/total)](https://github.com/ibnusurkati/whatsapp-remote-api)
-    [![Donate](https://img.shields.io/badge/Donate-PayPal-ff3f59.svg)](https://paypal.me/ibnusurkati)
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/v/release/ibnusurkati/whatsapp-remote-api" alt="Release" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/license/ibnusurkati/whatsapp-remote-api" alt="License" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://github.com/ibnusurkati/whatsapp-remote-api" target="_blank"><img src="https://img.shields.io/github/downloads/ibnusurkati/whatsapp-remote-api/total" alt="Downloads" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://paypal.me/ibnusurkati" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate" style="height: 60px !important;width: 217px !important;" ></a>
 </p>
 
 ## Description
 
 WhatsApp Remote is a Chrome extension to control WhatsApp messaging with APIs. This is very helpful for anyone who needs to send WhatsApp messages through your application/service.
 
-## How it works 
+## How it works
 
 Basically, you have to install the WhatsApp Remote chrome extension from the chrome store, and then you create Whastapp Web as usual. We will remote our extension to send WhatsApp through your browser.
 
@@ -42,6 +42,12 @@ APP_PORT=9000
 - [Youtube Channel](https://www.youtube.com/watch?v=Pjq3auuZvC8&list=PLcisELNHgL1yVu7d8fCCtw0oI-tv6KHyi)
 
 ## Support
+
 Please consider supporting me :). This is my first Open Source project, any support would go a long way in helping my ability to WhatsApp Remote to be better.
 
+<p align="left">
+
 <a href="https://www.buymeacoffee.com/ibnusurkati" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://paypal.me/ibnusurkati" target="_blank"><img src="paypal.svg" alt="Donate with PayPal" style="height: 60px !important;width: 217px !important;" ></a>
+
+</p>
