@@ -21,7 +21,7 @@ export class SendContactsDTO {
   key: string;
 
   @IsString()
-  @NoSpecialChar()
+  @NoSpecialChar('only-emoji')
   @WhatsappId()
   to: string;
 
