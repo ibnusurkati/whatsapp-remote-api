@@ -24,7 +24,10 @@ export class MessageController {
   async sendText(
     @Body() payload: SendTextDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'text',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -32,7 +35,10 @@ export class MessageController {
   async sendLocation(
     @Body() payload: SendLocationDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'location',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -40,7 +46,10 @@ export class MessageController {
   async sendContacts(
     @Body() payload: SendContactsDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'contacts',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -48,7 +57,10 @@ export class MessageController {
   async sendImage(
     @Body() payload: SendImageDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'image',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -56,7 +68,10 @@ export class MessageController {
   async sendVideo(
     @Body() payload: SendVideoDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'video',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -64,7 +79,10 @@ export class MessageController {
   async sendVoice(
     @Body() payload: SendVoiceDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'voice',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -72,7 +90,10 @@ export class MessageController {
   async sendDocument(
     @Body() payload: SendDocumentDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'document',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -80,7 +101,10 @@ export class MessageController {
   async sendAudio(
     @Body() payload: SendAudioDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'audio',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -88,7 +112,10 @@ export class MessageController {
   async sendSticker(
     @Body() payload: SendStickerDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'sticker',
+      ...payload,
+    });
     return { data: true };
   }
 
@@ -96,7 +123,10 @@ export class MessageController {
   async sendGif(
     @Body() payload: SendGifDTO,
   ): Promise<DefaultResponseInterface<boolean>> {
-    this.eventEmitter.emit(`message-${payload.key}`, payload);
+    this.eventEmitter.emit(`message-${payload.key}`, {
+      type: 'gif',
+      ...payload,
+    });
     return { data: true };
   }
 
