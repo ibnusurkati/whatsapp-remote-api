@@ -7,7 +7,7 @@ export class SendLocationDTO {
   key: string;
 
   @IsString()
-  @NoSpecialChar()
+  @NoSpecialChar('only-emoji')
   @WhatsappId()
   to: string;
 

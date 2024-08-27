@@ -8,7 +8,7 @@ export class SendVideoDTO {
   key: string;
 
   @IsString()
-  @NoSpecialChar()
+  @NoSpecialChar('only-emoji')
   @WhatsappId()
   to: string;
 

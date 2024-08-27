@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2] - 2024-08-27
+
+### Fixed
+
+- fix : validation destination number
+- fix : bug sse send message type
+- fix : package.json version
+
 ## [1.0.1] - 2024-08-27
 
 ### Fixed

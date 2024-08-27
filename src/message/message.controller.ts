@@ -4,7 +4,6 @@ import { Response } from 'express';
 import { fromEvent, map, Observable } from 'rxjs';
 import { MessageEventSseDTO } from 'src/common/dtos/sse.dto';
 import { DefaultResponseInterface } from 'src/common/interfaces/reformating-response.interface';
-import { MessageDataDTO } from './dtos/message-data.dto';
 import { SendAudioDTO } from './dtos/send-audio.dto';
 import { SendContactsDTO } from './dtos/send-contacts.dto';
 import { SendDocumentDTO } from './dtos/send-document.dto';
@@ -134,11 +133,12 @@ export class MessageController {
   events(
     @Param('key') key: string,
     @Res() response: Response,
-  ): Observable<MessageEventSseDTO<MessageDataDTO>> {
+  ): Observable<MessageEventSseDTO<any>> {
     response.on('close', () => response.end());
     return fromEvent(this.eventEmitter, `message-${key}`).pipe(
-      map((payload) => {
-        const data = payload as MessageDataDTO;
+      map((payload: any) => {
+        delete payload.key;
+        const data = payload;
         return { type: 'message', data, id: Date.now().toString() };
       }),
     );
