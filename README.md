@@ -38,7 +38,7 @@ APP_PORT=9000
 ## Documentation
 
 - [Basic Documentation](https://rdkflfi00q.apidog.io/)
-- [Chrome Extension WhatsApp Remote](https://chromewebstore.google.com/detail/woowa-crm/dmeikcpjjfommdlelokinhhmimlknlme)
+- [Chrome Extension WhatsApp Remote](https://chromewebstore.google.com/detail/woowa-crm/meccdflhmmmohgicamalaakjifgapefn)
 - [Youtube Channel](https://www.youtube.com/watch?v=Pjq3auuZvC8&list=PLcisELNHgL1yVu7d8fCCtw0oI-tv6KHyi)
 
 ## Support
