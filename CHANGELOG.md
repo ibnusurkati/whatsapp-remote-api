@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2024-08-27
+
+### Fixed
+
+- fix : type send message
+
 ## [1.0.0] - 2024-08-18
 
 - Initial setup and configuration
